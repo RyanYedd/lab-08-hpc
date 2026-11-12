@@ -12,7 +12,9 @@ Redirect the command's output to `results/job-history.txt` and include the file 
 
 **Your answer:** Provide the entire command you used, including all CLI options.
 
-...
+```bash
+sacct -u "$USER" --starttime=2026-11-04 -X --format=JobID,JobName,NodeList,Partition,Account,User,State,Submit,Start,End,Elapsed > results/job-history.txt
+```
 
 ## 2. Slurm: did every array task run at the same time?
 
