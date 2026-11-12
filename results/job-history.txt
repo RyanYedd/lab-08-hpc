@@ -1,0 +1,4 @@
+JobID           JobName        NodeList  Partition    Account      User      State               Start    Elapsed 
+------------ ---------- --------------- ---------- ---------- --------- ---------- ------------------- ---------- 
+22859706_[1]  summarize   None assigned    gpu-mig     ds2022    bqn6bm    PENDING             Unknown   00:00:00 
+22859967_[1+  summarize   None assigned    gpu-mig     ds2022    bqn6bm    PENDING             Unknown   00:00:00 
