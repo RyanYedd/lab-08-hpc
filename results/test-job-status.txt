@@ -1,0 +1,29 @@
+JobId=22859706 ArrayJobId=22859706 ArrayTaskId=1 JobName=summarize
+   UserId=bqn6bm(15708875) GroupId=users(100) MCS_label=N/A
+   Priority=7333136 Nice=0 Account=ds2022 QOS=class
+   JobState=PENDING Reason=Priority Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:00 TimeLimit=00:05:00 TimeMin=N/A
+   SubmitTime=2026-11-11T23:32:05 EligibleTime=2026-11-11T23:32:06
+   AccrueTime=2026-11-11T23:32:06
+   StartTime=2026-11-12T03:10:00 EndTime=2026-11-12T03:15:00 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-11-11T23:45:02 Scheduler=Main
+   Partition=gpu-mig AllocNode:Sid=udc-ba37-32c0:244501
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList= SchedNodeList=udc-aw37-1
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=2,mem=16G,node=1,gres/gpu=1
+   AllocTRES=(null)
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:1 CoreSpec=*
+   MinCPUsNode=2 MinMemoryNode=16G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/sfs/gpfs/tardis/home/bqn6bm/lab-08-hpc/summarize.slurm
+   WorkDir=/sfs/gpfs/tardis/home/bqn6bm/lab-08-hpc
+   StdErr=/sfs/gpfs/tardis/home/bqn6bm/lab-08-hpc/logs/summarize-22859706_4294967294.out
+   StdIn=/dev/null
+   StdOut=/sfs/gpfs/tardis/home/bqn6bm/lab-08-hpc/logs/summarize-22859706_4294967294.out
+   TresPerNode=gres/gpu:1
+   TresPerTask=cpu=2
+   
+
