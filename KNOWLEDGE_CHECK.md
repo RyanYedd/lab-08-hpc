@@ -26,7 +26,7 @@ You submitted your entire job array with one `sbatch` command, but Slurm schedul
 
 **Your answer:** Did all tasks in the array start at the same time? Was the elapsed time identical for every task? Explain why or why not.
 
-...
+No, all 101 tasks did not start at the same time. Slurm scheduled them in groups as GPU slices became available. The start times were different, but each task took approximately 14–19 seconds to complete. This shows that the job array allowed multiple books to be processed in parallel.
 
 ## 3. Slurm: did my job use what it asked for?
 
@@ -38,5 +38,5 @@ Suppose your next job array has 1,000 books instead of 101. Before you submit it
 
 **Your answer:** How much memory and time did the task use, compared with what your script asked for? What would you change in your script, and why?
 
-...
+My task used 3.15 GB of memory out of the 16 GB requested, which is about 19.67%. It took 17 seconds out of the 5-minute time limit. For 1,000 books, I would keep the same memory and time requests because the task used much less than the allocated resources.
 
