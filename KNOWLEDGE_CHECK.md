@@ -38,5 +38,5 @@ Suppose your next job array has 1,000 books instead of 101. Before you submit it
 
 **Your answer:** How much memory and time did the task use, compared with what your script asked for? What would you change in your script, and why?
 
-My task used 3.15 GB of memory out of the 16 GB requested, which is about 19.67%. It took 17 seconds out of the 5-minute time limit. For 1,000 books, I would keep the same memory and time requests because the task used much less than the allocated resources.
+My task used 3.15 GB of the 16 GB of memory requested (19.67%) and took 17 seconds out of the 5-minute time limit. For an array of 1,000 books, I would consider reducing the memory request because each task used much less than 16 GB. Requesting fewer resources could make it easier for Slurm to find available resources and schedule jobs sooner.
 
